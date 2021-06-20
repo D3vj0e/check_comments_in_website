@@ -8,7 +8,7 @@ from bs4 import Comment
 print("welcome to Check it out!")
 print("Please input full link(http://....)")
 target_web = input("Your target: ")
-target_check = requests.get(test_tar)
+target_check = requests.get(target_web)
 print("\nstatus target is :",target_check.status_code)
 time.sleep(2)
 
